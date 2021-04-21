@@ -1,0 +1,16 @@
+#navbar{
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  
+  #welcome-section{
+    height: 100%;
+  }
+  
+  @media (max-width:500px){
+    div{
+      width:80%;
+    }
+  }

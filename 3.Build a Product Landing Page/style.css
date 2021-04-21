@@ -1,0 +1,29 @@
+#header-img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#nav-bar{
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 500px){
+    #video{
+        width: auto;
+    }
+    #header-img{
+        width: auto;
+    }
+}
+
+
